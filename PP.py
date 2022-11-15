@@ -31,7 +31,7 @@ try:
 	import rich
 except ImportError:
 	os.system('pip install rich')
-	time.sleep(1)
+	time.sleep(3)
 	try:
 		import rich
 	except ImportError:
@@ -452,8 +452,8 @@ class Main:
     
         
       
-            time.sleep(1)
-            sys.stdout.flush()
+            
+            
             
 			os.system("clear")
 		print(logo)
